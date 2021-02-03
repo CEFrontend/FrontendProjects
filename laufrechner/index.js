@@ -1,0 +1,2 @@
+let controlPanel= new control();
+
