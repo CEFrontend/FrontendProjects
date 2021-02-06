@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="bsp1.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+
+    <div id="form-bsp1-wrapper">
+
+        <form >
+            <label for="firstname">Vorname:</label><br>
+            <input type="text" id="vorname" name="firstname" class="greenBorder" ><br>
+
+            <label for="lastname">Nachname:</label><br>
+            <input type="text" id="nachname" name="lastname" class="greenBorder"><br><br>
+
+            <label for="birth-year">Geburtsjahr:</label><br>
+            <input type="number" id="gebjahr" name="birth-year" class="greenBorder"><br><br>
+
+            <label for="svnr">Sv Nummer:</label><br>
+            <input type="text" id="vorname" name="svnr" maxlength="10" class="greenBorder"><br>
+
+            <div class="group">
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Männlich</label><br>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Weiblich</label><br>
+            <input type="radio" id="other" name="sex" value="other">
+            <label for="other">Divers</label> <br>
+            </div>
+
+        <div class="group">
+
+            <input type="checkbox" id="husten" name="symptoms[]" value="husten">
+            <label for="husten"> Husten</label><br>
+
+            <input type="checkbox" id="fieber" name="symptoms[]" value="fieber">
+            <label for="fieber"> Fieber</label><br>
+
+            <input type="checkbox" id="halsweh" name="symptoms[]" value="halsweh">
+            <label for="halsweh"> Halsweh</label>
+
+            <input type="checkbox" id="kopfweh" name="symptoms[]" value="kopfweh">
+            <label for="kopfweh"> Kopfweh</label>
+        </div>
+        
+          <input type="submit" value="Formular Absenden" id="submit-form" >
+
+        </form>
+
+    </div>  
+
+    <script src="bsp1.js"></script>
+</body>
+</html>

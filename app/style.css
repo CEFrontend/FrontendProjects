@@ -1,0 +1,4 @@
+#form-bsp1-wrapper input[type="number"],
+#form-bsp1-wrapper input[type="text"] {
+  border-color: green;
+}
