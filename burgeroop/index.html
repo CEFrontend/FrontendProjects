@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="box">
+        <div id="menu">
+            
+            <div class="field">
+                <div class="img" id="b"></div>
+                <button id="burger" onclick="addBurger()">Burger</button>
+            </div>
+
+            <div class="field">
+                <div class="img" id="p"></div>
+                <button id="pommes" onclick="addPommes()">Pommes</button>
+            </div>
+
+            <div class="field">
+                <div class="img" id="s"></div>
+                <button id="salat" onclick="addSalat()">Salat</button>
+            </div>
+
+            <div class="field">
+                <div class="img" id="g"></div>
+            <button id="getrank" onclick="addDrink()">Getränk</button>
+
+            </div>
+
+            
+               <div> <button id="rechnung" onclick="final()">Zahlen bitte!</button></div>
+              <button class="reset" onclick="reset()"></button>
+            
+
+        </div>
+
+        <div>
+            <ul id="ausgabe">
+        
+            </ul>
+        </div>
+
+    </div>
+     <script src="control.js"></script>
+      <script src="input.js"></script>
+   <script src="output.js"></script>
+    
+    
+  
+    <script src="index.js" ></script>
+    
+    
+</body>
+<script src="index.js"></script>
+</html>
