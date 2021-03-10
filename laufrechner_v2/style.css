@@ -1,0 +1,9 @@
+#box{
+    width: 600px;
+    border: black solid 1px;
+}
+
+.ausgabe{
+    border: black solid 1px;
+    height: 300px;
+}
