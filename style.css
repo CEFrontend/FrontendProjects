@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 800px 370px 400px 370px 370px 600px;
+  grid-template-columns: 40% 20% 40%;
+    position: relative; 
+  grid-template-areas:
+    "main main main"
+    "one two two"
+    "three three four"
+    "five six six"
+    "footer footer footer"
+    "c c c";
+}
+
+.box {
+  
+ 
+}
+
+
+
+.box, .main {
+  grid-area: main;
+  
+  background-image: url(https://images.pexels.com/photos/2356059/pexels-photo-2356059.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+
+  
+}
+
+.text-content{
+    border: black 1px solid;
+    height: 100px;
+    width: 60%;
+    
+   
+
+}
+
+.main, .box{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.box1 {
+  grid-area: one;
+  background-image: url(https://images.pexels.com/photos/4348097/pexels-photo-4348097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.box2 {
+  grid-area: two;
+  background-image: url(https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.box3 {
+  grid-area: three;
+  background-image: url(https://images.pexels.com/photos/1362480/pexels-photo-1362480.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.box4 {
+  grid-area: four;
+  background-image: url(https://images.pexels.com/photos/1785687/pexels-photo-1785687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.box5 {
+  grid-area: five;
+  background-image: url(https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.box6 {
+  grid-area: six;
+  background-image: url(https://images.pexels.com/photos/348523/pexels-photo-348523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.footer {
+    background-color: #2A2F4A;
+  grid-area: footer;
+}
+
+.c {
+    background-color: #242943;
+  grid-area: c;
+}
